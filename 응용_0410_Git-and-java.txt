@@ -1,0 +1,33 @@
+git log --oneline = git log 한줄로
+
+git remote add (origin)이름 주소
+_test01.git = github연동
+git remote -v = 연동확인
+git remote rm 이름 = 연동삭제
+git remote show = remote이름보여주기
+git push -u 이름 main
+
+깃 자격증명 관리 한컴퓨터에 깃 사용자가 다수일경우
+제어판 -> 사용자계정 -> 자격 증명 관리자 -> 깃허브제거
+
+////////////////////////////////////////////////////////////////
+java
+오라클 자바 8버전 jdk11.0.18 x64
+자바 설치 eclipse ide for enterprise java and web developers
+
+sysout ctrl+space
+ escape문자
+-문자열 안에서 특수한 기능을 하는것.
+-문자열은 ""(큰따옴표)로 묶여있는 값들
+-\n : 엔터와 비슷하다
+-\t : tab키와 비슷하다
+-\\ : \하나 푯현
+-\" : "하나 표현
+
+
+
+
+
+
+
+

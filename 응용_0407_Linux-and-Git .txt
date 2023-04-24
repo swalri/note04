@@ -1,0 +1,54 @@
+절대경로
+상대경로
+
+rm -r 파일이름 = 제거
+
+touch 이름.txt = txt파일 생성
+touch .이름.txt = 숨기기한상태로 생성
+
+ls -a 숨긴항목 표시
+
+mkdir -p 디렉토리/디렉토리 = 디렉토리 여러개 생성
+
+vim = vi랑 같다
+vi 파일이름 = 파일 편집, 이름에 해당하는 파일이 없을경우 파일 생성및 편집
+i누르고 시작
+esc누르고 :wq = 종료버튼
+
+cat 파일이름 = 파일에 있는 모든 내용 확인
+head -숫자 파일이름 = 파일에 있는 내용 첫줄부터 숫자로 지정한 줄까지의 내용 확인
+tail -숫자 파일이름 = 파일에 있는 내용 맨 아래줄부터 숫자로 지정한 줄까지의 내용 확인
+
+/////////////////////////////////////////////////////////////////
+git init = git의 시작
+
+git config --global user.name
+git config --global user.email 
+
+git config --local user.name
+git config --loacl user.email
+
+git add .
+git add --all
+
+git add 파일이름
+git status 
+
+rm = reset
+git rm --cached 파일이름 = 스테이지에서 작업공간으로 보내기
+git reset 파일이름
+
+git commit -m ""
+git log
+
+
+
+
+
+
+
+
+
+
+
+

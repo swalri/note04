@@ -1,0 +1,18 @@
+revert 흠....merge보다 어려운 느낌
+
+git reset --hard 로그경로7자리 = log되돌아가기
+git revert 이동하고자하는 경로 이후의 경로 사용 = 값만 되돌아가며 log에 흔적이 남는다
+
+git rebase --continue
+git push -uf origin main = 강제실행 꽤나 괜찮음
+
+git clone 저장주소
+git branch -d 브런치이름 = 브런치 삭제
+git branch -r = 깃허브에있는 브런치 종류
+git branch -a = 깃허브와 현재 쓰고있는 모든 브런치를 보여준다
+git push 경로이름(origin) 브런치이름 = 브런치 보내기
+git push origin --delete 깃허브에 있는 브런치이름 = 깃허브에 있는 브런치 제거
+
+깃허브에 브런치 다수있을경우 clone시 master만 들어오는데
+다른 브런치를 사용하고싶을경우 git checkout만 사용하면 바로 값을 가져올 수 있다
+

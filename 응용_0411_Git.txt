@@ -1,0 +1,19 @@
+git
+git log --branches --graph --decorate --oneline 이쁘게보이는 log
+
+git commit -am "내용" = git add . 와 git commit을 한번에하는 코드
+vi .gitignore 파일안에 다른파일 이름 = 파일내용숨김 본인도 가능
+.gitignore은 본인포함 지울수있으며, 지워진 파일들은 add --all, commit이 적용되지 않는다
+
+git branch 이름 = 생성
+git branch = 확인
+git branch -d 이름 = 삭제
+git checkout 브런치이름 = 브런치 이동
+git checkout -p 브런치이름 파일이름 = 병합이 아닌새로이 패치시키는 코드
+a누름 apend
+n끝
+
+git merge 브랜치이름 = 병합
+
+
+

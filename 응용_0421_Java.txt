@@ -1,0 +1,25 @@
+HashMap
+ - 키, 값으로 이루어져 있다.
+ - 순서는 유지되지 않는다.
+ - 키의 중복은 허용하지 않는다. 값은 중복가능
+put(key,value) 키,값 업데이트 있을시 업데이트 없을시 추가
+remove(key) 키,값 삭제
+keySet() key만 보여준다
+valuse() values만 보여준다
+
+Iterator<void> .iterator() 값 받아오기
+.hasNext() 지금번호에 다음번호가 있는지 확인 boolean
+.next() 다음번호로이동 String
+
+String
+toUpperCase 전체 대문자
+toLowerCase 전체 소문자
+length() 문자의 길이
+chatAt(n) n번째 문자 확인
+String.valueOf(num) 숫자를 문자로
+Integer.parseInt(str) 문자를 숫자로
+trim() 문자의 끝에있는 공백제거
+split(str) str을 기준으로 문자를 분리 String[]
+replace(str1,str2) str1을 str2로 변경
+
+
