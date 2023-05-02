@@ -10,7 +10,7 @@ git clone 저장주소
 git branch -d 브런치이름 = 브런치 삭제
 git branch -r = 깃허브에있는 브런치 종류
 git branch -a = 깃허브와 현재 쓰고있는 모든 브런치를 보여준다
-git push 경로이름(origin) 브런치이름 = 브런치 보내기
+git push 경로이름(origin) 브런치이름 = 깃허브에 브런치 보내기
 git push origin --delete 깃허브에 있는 브런치이름 = 깃허브에 있는 브런치 제거
 
 깃허브에 브런치 다수있을경우 clone시 master만 들어오는데
